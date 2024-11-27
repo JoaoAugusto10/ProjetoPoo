@@ -47,4 +47,17 @@ public class MarcaDaoHib implements InterfaceDao<Marca> {
 		return query.getResultList();
 	}
 
+	@Override
+	public void excluir(long id) throws Exception {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public List<Marca> listarMarcas() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+
 }

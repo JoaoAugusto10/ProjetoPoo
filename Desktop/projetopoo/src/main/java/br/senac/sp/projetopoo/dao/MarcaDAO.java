@@ -14,6 +14,7 @@ public class MarcaDAO implements InterfaceDao<Marca>{
 	private Connection conexao;
 	private String sql;
 	private PreparedStatement stmt;
+	
 
 	public MarcaDAO(Connection conexao) {
 		this.conexao = conexao;
@@ -67,4 +68,19 @@ public class MarcaDAO implements InterfaceDao<Marca>{
 	public Marca buscar(int id) throws SQLException{
 		return null;
 	}
+
+	@Override
+	public void excluir(long id) throws Exception {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public List<Marca> listarMarcas() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	
+
 }

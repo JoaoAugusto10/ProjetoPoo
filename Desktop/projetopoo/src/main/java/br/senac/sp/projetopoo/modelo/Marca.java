@@ -42,4 +42,9 @@ public class Marca {
 		this.logo = logo;
 	}
 
+	@Override
+	public String toString() {
+	    return this.nome; // Mostra apenas o nome no JComboBox
+	}
+
 }

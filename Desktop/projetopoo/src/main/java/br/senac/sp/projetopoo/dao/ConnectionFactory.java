@@ -10,7 +10,7 @@ public class ConnectionFactory {
 		if(conexao == null) {
 			try {
 				conexao = DriverManager.getConnection
-						("jdbc:mysql://localhost:3306/projetopoo","root","");
+						("jdbc:mysql://localhost:3306/poo","root","guigasoares12");
 			} catch (Exception e) {
 				e.printStackTrace();
 			}

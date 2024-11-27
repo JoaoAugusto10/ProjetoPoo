@@ -12,11 +12,11 @@
 			<property name="jakarta.persistence.jdbc.driver"
 				value="com.mysql.jdbc.Driver" />
 			<property name="jakarta.persistence.jdbc.url"
-				value="jdbc:mysql://localhost:3306/projetopoo" />
+				value="jdbc:mysql://localhost:3306/poo" />
 			<property name="jakarta.persistence.jdbc.user"
 				value="root" />
 			<property name="jakarta.persistence.jdbc.password"
-				value="" />
+				value="guigasoares12" />
 			<property name="hibernate.show_sql" value="true" />
 			<property name="hibernate.format_sql" value="true" />
 
